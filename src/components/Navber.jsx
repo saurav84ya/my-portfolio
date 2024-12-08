@@ -37,8 +37,8 @@ export default function Navbar() {
     return (
         <div className='text-white/70 pt-6  '>
             {/* Navigation Links for larger screens */}
-            <div className=' fixed hidden md:flex items-center  w-full justify-center px-4 py-2 mx-auto max-h-[400px] z-50 '>
-                <ul className='flex flex-row p-4 space-x-8' >
+            <div className=' fixed hidden md:flex items-center   w-full justify-center px-4 py-2 mx-auto max-h-[400px] z-50 '>
+                <ul className='flex flex-row p-4 space-x-8  border-black rounded-lg bg-black/90 ' >
                     {navLinks.map((link, index) => (
                         <li key={index}>
                             <a href={link.path}>

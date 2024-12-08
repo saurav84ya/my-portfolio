@@ -17,6 +17,6 @@ body {
 }
 
 .animae-gradient-xy {
-    animation:  gradient-xy 1s ease infinite;
+    animation:  gradient-xy 3s ease infinite;
     background-size: 200% 200%;
 }
