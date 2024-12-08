@@ -57,7 +57,7 @@ const About = () => {
             <AboutCard
               icon={finance}
               title="Technical Skill"
-              description="As a Fullstack Web Developer, I specialize in React JS, Next.js, and Tailwind CSS."
+              description="As a Mern Developer, I specialize in MangoDb , Express JS , React JS, Node JS ."
             />
           </div>
         </div>
