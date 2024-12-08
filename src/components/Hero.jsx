@@ -5,7 +5,7 @@ import profilepic from "../assets/profilepic.png";
 
 export default function Hero() {
   return (
-    <div className="relative overflow-hidden bg-[linear-gradient(to_bottom,#000,#2B1942_35%,#8F5C55_60%,#DBAF6E_80%)] pt-[100px] h-[100vh] ">
+    <div className="relative overflow-hidden bg-[linear-gradient(to_bottom,#000,#2B1942_35%,#8F5C55_60%,#DBAF6E_80%)] pt-[100px]  md:h-[100vh] ">
       {/* Radial Background */}
       <div className="absolute rounded-full w-[3000px] h-[7000px] bg-[radial-gradient(circle,#000_80%,#2B1942)] top-[550px] left-1/2 -translate-x-1/2"></div>
 
