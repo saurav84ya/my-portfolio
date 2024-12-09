@@ -5,7 +5,22 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        moveDot: 'moveDot 6s linear infinite',
+      },
+      keyframes: {
+        moveDot: {
+          '0%, 100%': { top: '10%', right: '10%' },
+          '25%': { top: '10%', right: 'calc(100% - 35px)' },
+          '50%': { top: 'calc(100% - 30px)', right: 'calc(100% - 35px)' },
+          '75%': { top: 'calc(100% - 30px)', right: '10%' },
+        },
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
+    },
   },
   plugins: [],
 }
