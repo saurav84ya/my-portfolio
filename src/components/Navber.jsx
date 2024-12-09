@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { motion } from 'framer-motion';
+import { HiHome } from 'react-icons/hi';
 
 export default function Navbar() {
     const navLinks = [
@@ -89,6 +90,21 @@ export default function Navbar() {
                 </ul>
             </motion.div> */}
 
+
+
+
+        <motion.div
+        animate={{ y: [0,12, 0] , x :[] }}
+        transition={{ duration: 3, repeat: Infinity, repeatType: "loop" }}
+          className="fixed z-50 md:bottom-[100px] md:right-[100px] 
+            bottom-[100px] right-[20px] md:h-[50px] md:w-[50px] h-[40px] w-[40px]
+             bg-orange-500  flex justify-center items-center rounded-full  "
+          drag
+        >
+                <a href="/#">
+                <HiHome size={30} />
+                </a>
+            </motion.div>
         </div>
     );
 }
