@@ -6,7 +6,7 @@ import { HiHome } from 'react-icons/hi';
 export default function Navbar() {
     const navLinks = [
         { title: "About", path: "#about" },
-        { title: "Portfolio", path: "#portfolio" },
+        { title: "Projects", path: "#portfolio" },
     ];
 
     const [nav, setNav] = useState(false);
