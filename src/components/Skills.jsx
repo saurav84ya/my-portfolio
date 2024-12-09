@@ -67,7 +67,7 @@ export default function Skills() {
                         // </div>
 
 
-                        <div className="container noselect relative w-[150px] h-[190px] transition duration-200 " key={i} >
+                        <div className="container noselect relative md:w-[150px] w-[100px] h-[70px] md:h-[190px] transition duration-200 " key={i} >
                         <div className="canvas">
                           <div className="tracker tr-1"></div>
                           <div className="tracker tr-2"></div>
@@ -95,9 +95,9 @@ export default function Skills() {
                           <div className="tracker tr-24"></div>
                           <div className="tracker tr-25"></div>
                           <div id="card">
-                          <p id="prompt">{s.lable}</p>
+                          <p className="absolute md:bottom-[8px] bottom-[-20px] text-center font-bold z-10  text-[15px] md:text-[20px]  ">{s.lable}</p>
                             <div className="title">
-                              <img src={s.icon} className="md:h-[100px] h-[80px]" alt="" />
+                              <img src={s.icon} className="md:h-[100px] h-[50px]" alt="" />
                             </div>
                           </div>
                         </div>

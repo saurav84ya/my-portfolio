@@ -101,7 +101,7 @@ export default function Portfolio() {
               <img
                 src={p.src}
                 alt="img"
-                className="xl:h-[350px] md:h-[300px] h-[250px] mt-14 lg:mt-0 rounded-lg   w-auto object-cover "
+                className="xl:h-[350px] md:h-[300px] h-[200px] mt-14 lg:mt-0 rounded-lg   w-auto object-cover "
               />
             </div>
           </motion.div>

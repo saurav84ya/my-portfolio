@@ -17,8 +17,8 @@ export default function Contact() {
   </li>
   <li className="flex items-center">
     <img src={mail} className="h-[110px] w-auto mr-6" alt="mail" />
-    <a href="mailto:sauravkumarobra50@gmail.com" className="text-xl text-white/70 hover:underline">
-      sauravkumarobra50@gmail.com
+    <a href="mailto:sauravkumarobra50@gmail.com" className="text-xl max-w-[100px] break-before-auto text-white/70 hover:underline">
+      sauravkumarobra..
     </a>
   </li>
 </ul>
