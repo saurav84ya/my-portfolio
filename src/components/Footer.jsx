@@ -80,7 +80,7 @@ export default function Footer() {
           </div>
 
 
-          <div onClick={()=>window.open('sauravkumarobra50@gmail.com', '_blank')}  className="social-button">
+          <div onClick={()=>window.open('mailto:sauravkumarobra50@gmail.com', '_blank')}  className="social-button">
             <button className="relative w-12 h-12 rounded-full group">
               <div className="floater w-full h-full absolute top-0 left-0 bg-red-400 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"></div>
               <div className="icon relative z-10 w-full h-full flex items-center justify-center border-2 border-red-400 rounded-full">
@@ -103,8 +103,6 @@ export default function Footer() {
 
         </div>
       </div>
-
-
     </div>
   );
 }

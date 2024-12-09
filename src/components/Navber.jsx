@@ -37,8 +37,8 @@ export default function Navbar() {
     return (
         <div className='text-white/70 pt-6  '>
             {/* Navigation Links for larger screens */}
-            <div className=' fixed hidden md:flex items-center   w-full justify-center px-4 py-2 mx-auto max-h-[400px] z-50 '>
-                <ul className='flex flex-row p-4 space-x-8  border-black rounded-lg bg-black/90 ' >
+            <div className=' fixed  md:flex items-center    w-full justify-center px-4 py-2 max-h-[400px] z-50 '>
+                <ul className='flex flex-row p-4 space-x-8  mx-auto w-[305px] border-black rounded-lg bg-black/90 ' >
                     {navLinks.map((link, index) => (
                         <li key={index}>
                             <a href={link.path}>
@@ -64,7 +64,7 @@ export default function Navbar() {
 
             {/* for mobile devices */}
 
-            <div onClick={toggleNav} className='md:hidden absolute top-5 right-5 border rounded border-white/70 p-2 z-50' >
+            {/* <div onClick={toggleNav} className='md:hidden absolute top-5 right-5 border rounded border-white/70 p-2 z-50' >
                 {
                     nav ? <AiOutlineClose size={30}  /> : <AiOutlineMenu size={30} />
                 }
@@ -74,7 +74,7 @@ export default function Navbar() {
                 initial = {false}
                 animate = {nav ? 'open' : 'closed'}
                 variants ={ menuVariants}
-                className ="fixed left-0 top-0 w-full z-40 bg-black/90"
+                className ="absolute left-0 top-0 w-full z-40 bg-black/90"
             >
                 <ul className='text-4xl font-semibold my-24 text-center space-y-8' >
                     
@@ -87,7 +87,7 @@ export default function Navbar() {
                         ))}
                     
                 </ul>
-            </motion.div>
+            </motion.div> */}
 
         </div>
     );

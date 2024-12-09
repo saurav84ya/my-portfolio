@@ -28,9 +28,7 @@ const About = () => {
             <div className="flex flex-col mt-4">
               <h2 className="text-2xl font-bold text-white/80">Education</h2>
               <p className=" md:text-lg text-white/70 mt-2">
-                I hold a degree in Computer Science and I am focusing on
-                technologies like React, Next.js, and Tailwind CSS.
-              </p>
+              Currently pursuing a Bachelor of Computer Applications (BCA), with a focus on web development. Proficient in the MERN stack.</p>
             </div>
           </div>
         </div>
@@ -72,8 +70,8 @@ const About = () => {
                 Technical Skill
               </h2>
               <p className="md:text-lg text-white/70 mt-2">
-                As a Fullstack Web Developer, I specialize in React JS, Next.js,
-                and Tailwind-CSS.
+                As a Fullstack Web Developer, I specialize in React JS, MongoDB,ExpressJS
+                and NodeJS 
               </p>
             </div>
           </div>

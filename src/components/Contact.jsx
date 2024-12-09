@@ -8,16 +8,21 @@ export default function Contact() {
         rounded-lg space-y-8 lg:space-y-0 lg:space-x-8     '  id='contact'>
             
             <div className= 'flex justify-center items-center ' > 
-                <ul className='space-y-4' >
-                    <li className=' flex items-center ' >
-                        <img src={phone} className='h-[110px] w-auto mr-6 ' alt="phone" />
-                        <p className='text-xl'>+91 7762074220</p>
-                    </li>
-                    <li className=' flex items-center ' >
-                        <img src={mail} className='h-[110px] w-auto mr-6 ' alt="mail" />
-                        <p className='text-xl'>sauravkumarobra50@gmail.com</p>
-                    </li>
-                </ul>
+            <ul className="space-y-4">
+  <li className="flex items-center">
+    <img src={phone} className="h-[110px] w-auto mr-6" alt="phone" />
+    <a href="tel:+917762074220" className="text-xl text-white/70 hover:underline">
+      +91 7762074220
+    </a>
+  </li>
+  <li className="flex items-center">
+    <img src={mail} className="h-[110px] w-auto mr-6" alt="mail" />
+    <a href="mailto:sauravkumarobra50@gmail.com" className="text-xl text-white/70 hover:underline">
+      sauravkumarobra50@gmail.com
+    </a>
+  </li>
+</ul>
+
             </div>
 
             <div className='bg-white/10 p-6 rounded-xl mx-auto max-w-[550px]' >

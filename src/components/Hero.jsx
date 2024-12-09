@@ -16,9 +16,19 @@ export default function Hero() {
           <h1 className="text-6xl md:text-8xl text-[#E48A57]">Saurav Chaurasia</h1>
         </div>
 
+        <motion.div
+              animate={{ y: [0,24, 0] , x :[] }}
+              transition={{ duration: 5, repeat: Infinity, repeatType: "loop" }}
+              className='w-3 h-3 rounded-full bg-secondary mb-1'
+            >
+              
+            </motion.div>
+
         {/* Cursor Icon */}
         <motion.div
-          className="absolute left-[280px] top-[170px]"
+        animate={{ y: [0,24, 0] , x :[] }}
+        transition={{ duration: 3, repeat: Infinity, repeatType: "loop" }}
+          className="absolute left-[280px] top-[170px] hidden lg:block  "
           drag
         >
           <img
@@ -32,7 +42,9 @@ export default function Hero() {
 
         {/* Message Icon */}
         <motion.div
-          className="absolute right-[220px] top-[20px]"
+        animate={{ y: [0,24, 0] , x :[] }}
+        transition={{ duration: 3, repeat: Infinity, repeatType: "loop" }}
+          className="absolute right-[220px] top-[20px]  hidden lg:block "
           drag
         >
           <img
@@ -44,6 +56,8 @@ export default function Hero() {
           />
         </motion.div>
 
+
+        
         {/* Description */}
         <p className="text-center px-2 md:px-0 text-xl max-w-[500px] mx-auto mt-8 text-white/80">
           I am a full-stack developer focused on creating websites that provide
