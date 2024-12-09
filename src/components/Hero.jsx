@@ -56,6 +56,7 @@ export default function Hero() {
           />
         </motion.div>
 
+        {/* <Meteors number={20} /> */}
 
         
         {/* Description */}
