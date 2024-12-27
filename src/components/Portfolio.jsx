@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import ecommerse from "../assets/ecommerse.png";
 import chapapp from "../assets/chapapp.png";
 import todo from "../assets/todo.png";
+import expansetracker from "../assets/expansetracker.png";
 
 const projects = [
   {
@@ -27,6 +28,14 @@ const projects = [
     link: "https://todo-1-1-frontend.vercel.app/",
     git: "https://github.com/saurav84ya/",
     src: todo, // Use the imported variable here
+    devstck: ["MongoDb", "ExpressJS", "ReactJS", "NodeJS"],
+  },
+  {
+    title: "Expense Tracker ",
+    desc: "This intuitive MERN Expense Tracker lets users track income and expenses effortlessly, with features like adding, deleting, and viewing transaction history. Real-time updates and a dynamic graph offer a clear comparison of income vs. expenses. Enhanced with OTP-based authentication for secure registration and password recovery, it ensures a smooth and reliable user experience.",
+    link: "https://expansetracker9097.netlify.app/",
+    git: "https://github.com/saurav84ya/",
+    src: expansetracker, // Use the imported variable here
     devstck: ["MongoDb", "ExpressJS", "ReactJS", "NodeJS"],
   },
 ];
