@@ -65,54 +65,47 @@ export default function Portfolio() {
                 : "flex-col lg:flex-row"
             } `}
           >
-            <div className="space-y-2 max-w-[550px] px-4 md:px-8 ">
-              <h2 className="xl:text-7xl text-4xl my-4 text-white/70">{`0${
-                i + 1
-              }`}</h2>
-              <h2 className="xl:text-4xl text-2xl">{p.title}</h2>
-              <p className="xl:text-lg  text-white/70 break-words p-4">
-                {" "}
-                {p.desc}{" "}
-              </p>
-              <div className="flex gap-2">
-                {" "}
-                {p.devstck.map((li, i) => (
-                  <p
-                    key={i}
-                    className="xl:text-xl text-orange-500 font-semibold "
-                  >
-                    <span className="text-green-400">#</span>
-                    {li}
-                  </p>
-                ))}{" "}
-              </div>
-              <div className="w-64 h-[1px] bg-gray-400 my-4 ">
-                <a
-                  href={p.link}
-                  className="mr-6"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Link
-                </a>
-                <a
-                  href={p.git}
-                  className="mr-6"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Git
-                </a>
-              </div>
-            </div>
+            <div className="space-y-2 max-w-[550px] px-4 md:px-8">
+  <h2 className="xl:text-7xl text-4xl my-4 text-white/70">{`0${i + 1}`}</h2>
+  <h2 className="xl:text-4xl text-2xl">{p.title}</h2>
+  <p className="xl:text-lg text-white/70 break-words p-4">{p.desc}</p>
+  <div className="flex gap-2">
+    {p.devstck.map((li, idx) => (
+      <p key={idx} className="xl:text-xl text-orange-500 font-semibold">
+        <span className="text-green-400">#</span>
+        {li}
+      </p>
+    ))}
+  </div>
+  <div className="w-64 h-[1px] bg-gray-400 my-4"></div>
+  <a
+    href={p.link}
+    className="mr-6"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={`Visit ${p.title} live link`}
+  >
+    Link
+  </a>
+  <a
+    href={p.git}
+    className="mr-6"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={`Visit ${p.title} GitHub repository`}
+  >
+    Git
+  </a>
+</div>
 
-            <div className="flex justify-center items-center">
-              <img
-                src={p.src}
-                alt="img"
-                className="xl:h-[350px] md:h-[300px] h-[200px] mt-14 lg:mt-0 rounded-lg   w-auto object-cover "
-              />
-            </div>
+<div className="flex justify-center items-center">
+  <img
+    src={p.src}
+    alt={p.title}
+    className="xl:h-[350px] md:h-[300px] h-[200px] mt-14 lg:mt-0 rounded-lg w-auto object-cover"
+  />
+</div>
+
           </motion.div>
         ))}
       </div>
