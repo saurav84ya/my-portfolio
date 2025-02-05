@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import ecommerse from "../assets/ecommerse.png";
 import chapapp from "../assets/chapapp.png";
-import todo from "../assets/todo.png";
+import mixgpt from "../assets/mixgpt.png";
 import expansetracker from "../assets/expansetracker.png";
 
 const projects = [
@@ -15,19 +15,20 @@ const projects = [
     devstck: ["MongoDb", "ExpressJS", "ReactJS", "NodeJS"],
   },
   {
+    title: "MixGPT – AI Chat App",
+    desc: "The highlight of MixGPT is the ability to choose from multiple AI models for tailored responses, making it a game-changer in AI interactions! Built using the MERN stack, it features OTP-based registration, secure authentication, password recovery, profile updates, and prompt history management. Experience seamless AI-powered conversations like never before!",
+    link: "https://lnkd.in/gXqS4y4J",
+    git: "https://lnkd.in/ggUUDGRX",
+    src: mixgpt,
+    devstck: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS"],
+}
+,
+  {
     title: "Chat App",
     desc: "A MERN-based chat app with secure authentication, real-time messaging via Socket.IO, and global connectivity. It ensures privacy, responsiveness, and effortless communication across devices.",
     link: "https://chat-app-front-end-alpha.vercel.app/",
     git: "https://github.com/saurav84ya/",
     src: chapapp, // Use the imported variable here
-    devstck: ["MongoDb", "ExpressJS", "ReactJS", "NodeJS"],
-  },
-  {
-    title: "Todo App",
-    desc: "This simple yet feature-rich MERN to-do app lets users add, edit, and delete tasks effortlessly. With user authentication, task management, and real-time updates, it provides a smooth, responsive experience. Despite its simplicity, its clean UI and great features make managing tasks a breeze.",
-    link: "https://todo-1-1-frontend.vercel.app/",
-    git: "https://github.com/saurav84ya/",
-    src: todo, // Use the imported variable here
     devstck: ["MongoDb", "ExpressJS", "ReactJS", "NodeJS"],
   },
   {
