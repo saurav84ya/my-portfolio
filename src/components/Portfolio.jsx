@@ -17,8 +17,8 @@ const projects = [
   {
     title: "MixGPT – AI Chat App",
     desc: "The highlight of MixGPT is the ability to choose from multiple AI models for tailored responses, making it a game-changer in AI interactions! Built using the MERN stack, it features OTP-based registration, secure authentication, password recovery, profile updates, and prompt history management. Experience seamless AI-powered conversations like never before!",
-    link: "https://lnkd.in/gXqS4y4J",
-    git: "https://lnkd.in/ggUUDGRX",
+    link: "https://mixgpt.netlify.app/",
+    git: "https://github.com/saurav84ya",
     src: mixgpt,
     devstck: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS"],
 }
