@@ -1,11 +1,42 @@
-import React from "react";
 import { motion } from "framer-motion";
 import ecommerse from "../assets/ecommerse.png";
+import featherverse from "../assets/featherverse.png";
+import pixforge from "../assets/pixforge.png";
+
+
 import chapapp from "../assets/chapapp.png";
 import mixgpt from "../assets/mixgpt.png";
 import expansetracker from "../assets/expansetracker.png";
 
 const projects = [
+  
+  {
+    title: "MixGPT – AI Chat App",
+    desc: "The highlight of MixGPT is the ability to choose from multiple AI models for tailored responses, making it a game-changer in AI interactions! Built using the MERN stack, it features OTP-based registration, secure authentication, password recovery, profile updates, and prompt history management. Experience seamless AI-powered conversations like never before!",
+    link: "https://mixgpt.vercel.app/",
+    git: "https://github.com/saurav84ya/MIX_GPT_ON_NEXTJS",
+    src: mixgpt,
+    devstck: ["MongoDB", "TailwindCSS", "NextJS", "NextAuth"],
+}
+,
+  {
+  title: "FeatherVerse – Bird Blogging Platform",
+  desc: "FeatherVerse is a vibrant social blogging platform for bird lovers! 🐦 Built with Next.js and MongoDB, it lets users create, edit, and explore bird-related blogs, engage through comments & likes, and manage personalized profiles. Powered by NextAuth for secure authentication and optimized for smooth performance.",
+  link: "https://featherverse.vercel.app/",
+  git: "https://github.com/saurav84ya/bird_blog_repo",
+  src: featherverse, // replace this with your actual image import/URL if needed
+  devstck: ["Next.js", "MongoDB", "NextAuth", "TailwindCSS"],
+},
+{
+  title: "PixForge – Image Toolbox App",
+  desc: "PixForge is a sleek and minimal image processing tool built with 💙 using Next.js. Perform image compression, format conversion, and resizing — all in one place! Powered by Sharp and Next.js API routes for a seamless full-stack experience without external servers. 🚀",
+  link: "https://pixforge-five.vercel.app",
+  git: "https://github.com/saurav84ya/pixforge",
+  src: pixforge, // replace with actual image import or URL
+  devstck: ["Next.js", "SharpJS", "TailwindCSS"],
+}
+
+,
   {
     title: "Ecommerce Site",
     desc: "A feature-packed e-commerce platform with add-to-cart functionality, seamless product ordering, verified user reviews, real-time cart updates, and an admin dashboard for product and user management. It includes secure authentication, responsive design, and Redux for efficient state management.",
@@ -13,15 +44,7 @@ const projects = [
     git: "https://github.com/saurav84ya/",
     src: ecommerse,
     devstck: ["MongoDb", "ExpressJS", "ReactJS", "NodeJS"],
-  },
-  {
-    title: "MixGPT – AI Chat App",
-    desc: "The highlight of MixGPT is the ability to choose from multiple AI models for tailored responses, making it a game-changer in AI interactions! Built using the MERN stack, it features OTP-based registration, secure authentication, password recovery, profile updates, and prompt history management. Experience seamless AI-powered conversations like never before!",
-    link: "https://mixgpt.netlify.app/",
-    git: "https://github.com/saurav84ya",
-    src: mixgpt,
-    devstck: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS"],
-}
+  }
 ,
   {
     title: "Chat App",

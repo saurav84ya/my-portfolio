@@ -1,9 +1,6 @@
 
 
 
-
-import React from "react";
-import aboutImg from "../assets/profilepic.png";
 import book from "../assets/book.png";
 import pc from "../assets/pc.png";
 import card from "../assets/card.png";
@@ -70,7 +67,7 @@ const About = () => {
                 Technical Skill
               </h2>
               <p className="md:text-lg text-white/70 mt-2">
-                As a Fullstack Web Developer, I specialize in React JS, MongoDB,ExpressJS
+                As a Fullstack Web Developer, I specialize in Next Js , TypeScript , React JS , MongoDB , SQL , ExpressJS
                 and NodeJS 
               </p>
             </div>
