@@ -5,6 +5,9 @@ import javascript from "../assets/javascript.png";
 import mongobdlogo from "../assets/mongobdlogo.png";
 import nodejslogo from "../assets/nodejslogo.png";
 import reacrlogo from "../assets/reactlogo.png";
+import tsLogo from "../assets/tsLogo.png";
+import NextJsLogo from "../assets/NextJsLogo.png";
+
 import reduxlogo from "../assets/reduxlogo.png";
 import tailwindcsslogo from "../assets/tailwindcsslogo.png";
 import expresslogo from "../assets/expresslogo.png";
@@ -12,12 +15,15 @@ import expresslogo from "../assets/expresslogo.png";
 
 
 
-import React from 'react'
 
 
 const skillIcons = [
     {
         icon :htmllogo  , lable : "HTML" 
+    }, {
+        icon :tsLogo  , lable : "TypeScript" 
+    }, {
+        icon :NextJsLogo  , lable : "NextJs" 
     },
     {
         icon :csslogo  , lable : "CSS" 
