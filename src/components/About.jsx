@@ -31,7 +31,7 @@ const About = () => {
         </div>
 
         <div className="w-full xl:col-span-3 col-span-6 relative bg-white/10 backdrop-blur-lg border-white/20 rounded-lg overflow-hidden ">
-          <div className="absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animae-gradient-xy  "></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-orange-800 via-orange-400 to-purple-700  opacity-30 animae-gradient-xy  "></div>
           <div className="flex flex-grow p-6">
             <img src={pc} alt="book" className="w-auto h-[130px]" />
             <div className="flex flex-col mt-4">
@@ -59,7 +59,7 @@ const About = () => {
         </div>
 
         <div className="w-full xl:col-span-5 col-span-6 relative bg-white/10 backdrop-blur-lg border-white/20 rounded-lg overflow-hidden ">
-          <div className="absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animae-gradient-xy  "></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-orange-800 via-orange-400 to-purple-700  opacity-30 animae-gradient-xy  "></div>
           <div className="flex flex-grow p-6">
             <img src={finance} alt="book" className="w-auto h-[130px]" />
             <div className="flex flex-col mt-4">
